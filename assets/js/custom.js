@@ -125,3 +125,22 @@ $(document).ready(function(){
 
 });	
 	
+// Get the counter element
+var counterElement = document.getElementById('counter');
+var counterElement2 = document.getElementById('counter2');
+
+// Check if local storage has a count value
+var count = localStorage.getItem('count');
+
+// If count is not available in local storage, set it to 0
+if (!count) {
+    count = 0;
+}
+
+// Update the counter on the page
+counterElement.textContent = count;
+counterElement2.textContent = count;
+
+// Increment the counter on each visit
+count++;
+localStorage.setItem('count', count);
