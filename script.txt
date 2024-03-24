@@ -1,0 +1,17 @@
+// Get the counter element
+var counterElement = document.getElementById('counter');
+
+// Check if local storage has a count value
+var count = localStorage.getItem('count');
+
+// If count is not available in local storage, set it to 0
+if (!count) {
+    count = 0;
+}
+
+// Update the counter on the page
+counterElement.textContent = count;
+
+// Increment the counter on each visit
+count++;
+localStorage.setItem('count', count);

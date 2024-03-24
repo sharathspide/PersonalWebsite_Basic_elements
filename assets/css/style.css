@@ -659,7 +659,31 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*-------------------------------------
-        11. Contact
+        11. Counter
+--------------------------------------*/
+.Counter {
+    padding-top: 50px;
+    min-height: 250px;
+    max-height: 300px;
+    background-color: #f2f4f8;
+}
+
+.section-heading-counter h2 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+}
+
+.Counter-Text h2 {
+    font-size: 45px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/*-------------------------------------
+        12. Contact
 --------------------------------------*/
 .contact {
     background: #f9fbfd;
