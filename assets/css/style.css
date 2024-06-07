@@ -412,8 +412,9 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
         7. Experience
 -------------------------------------*/
 .experience {
-    padding: 50px 0 100px;
+    padding: 50px 0 25px;
     border-top: 1px solid #e5ebf2;
+    border-bottom: 1px solid #e5ebf2;
 }
 .experience-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
